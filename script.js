@@ -5,3 +5,8 @@ burgerMenuBtn.addEventListener("click", (e) => {
   e.target.closest(".burger-menu-btn").classList.toggle("open");
   navBarOptions.classList.toggle("open");
 });
+
+function toggleSearchBar(state) {
+  if (state) {
+  }
+}
