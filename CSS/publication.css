@@ -1,0 +1,44 @@
+/*******************************************************************
+                            Info Banner 
+*******************************************************************/
+#publication-banner {
+  padding: 10px;
+}
+.publication-theme {
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.publication-title {
+  text-wrap: balance;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.publication-introduction {
+  text-wrap: balance;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.image {
+  margin-bottom: 15px;
+}
+.image img {
+  width: 100%;
+}
+.image p {
+  font-size: 10px;
+  font-weight: 400;
+}
+.publication-data {
+  display: flex;
+  font-weight: 700;
+  font-size: 13px;
+  gap: 15px;
+  width: fit-content;
+  border-top: 1px solid black;
+}
+.publication-data span {
+  font-weight: 400;
+}

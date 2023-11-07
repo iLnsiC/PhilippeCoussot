@@ -27,7 +27,8 @@
     "date": "20-2-2022",
     "hot": true,
     "research": false,
-    "image": "url d'image"
+    "image": "url d'image",
+    "imageAlt": "image alt"
   },
   {
     "id": 4,
