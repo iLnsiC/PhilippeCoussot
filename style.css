@@ -21,6 +21,7 @@ ul {
 a {
   text-decoration: none;
   color: unset;
+  cursor: pointer;
 }
 
 button {
@@ -142,80 +143,31 @@ nav {
   border-radius: 50px;
 }
 
-/*******************************************************************
-                              HERO BANNER 
-*******************************************************************/
-
-.hero-theme {
-  font-size: 9px;
+footer{
+  padding: 50px 10px;
+  color: white;
+  background-color: black;
+}
+.footer-info{
+  text-align: center;
+}
+.f-logo{
+  font-size: 34px;
   font-weight: 400;
-  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.footer-info p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.f-logo .social-link{
+  text-decoration: underline;
 }
 
-.hero-subject {
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: -1.65px;
-  text-wrap: balance;
-  margin-bottom: 20px;
-}
-
-.hero-description {
-  font-size: 13px;
-  text-wrap: balance;
-  margin-bottom: 20px;
-}
-
-.hero-pictures {
-  position: relative;
-  height: 400px;
-}
-.hero-pictures-container {
-  height: 100%;
-  display: flex;
-}
-
-.hero-picture {
-  flex: 1;
-  object-fit: cover;
-  border: 1px solid red;
-  transition: all 500ms ease;
-}
-
-.hero-picture:nth-child(1) {
-  object-position: 0%;
-}
-
-.hero-picture:nth-child(2) {
-  object-position: 25%;
-}
-
-.hero-picture:nth-child(3) {
-  object-position: 50%;
-}
-
-.hero-picture:nth-child(4) {
-  object-position: 100%;
-}
-
-.hero-picture:hover {
-  flex-grow: 3;
-}
-
-.hero-pictures-description {
-  position: absolute;
-  width: 80%;
-  padding: 25px 35px;
-  background-color: white;
-  border: 1px solid black;
-  bottom: 0;
-  left: 10%;
-  transform: translateY(50%);
-  z-index: 1;
-  text-align: justify;
-  text-wrap: balance;
-  margin: 20px auto;
-}
+/*******************************************************************
+                              FOOTER 
+*******************************************************************/
 
 /*******************************************************************
                               DESKTOP VERSION 
