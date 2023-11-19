@@ -5,6 +5,7 @@
 *******************************************************************/
 :root {
   --main-blue: #6464bb;
+  --main-bg-blue: #95b0f5;
 }
 
 * {
@@ -12,6 +13,9 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 13px;
 }
 
 ul {
@@ -29,7 +33,39 @@ button {
   background: none;
   cursor: pointer;
 }
-
+.main-btn {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.main-card {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+.blue-card {
+  border-radius: 3px;
+  background-color: var(--main-bg-blue);
+}
+.new-tag {
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+}
+.padded-align {
+  padding: 0 20px;
+}
 /*******************************************************************
                               NavBar 
 *******************************************************************/
@@ -88,7 +124,7 @@ nav {
   top: 100%;
   left: 0;
   padding: 0 15px;
-  width: 100vw;
+  width: 100%;
   border-bottom: 1px solid black;
   background-color: white;
   overflow: hidden;
@@ -135,6 +171,10 @@ nav {
   opacity: 1;
 }
 
+/*******************************************************************
+                              FOOTER 
+*******************************************************************/
+
 .search-input.open {
   width: 200px;
   z-index: 0;
@@ -143,15 +183,15 @@ nav {
   border-radius: 50px;
 }
 
-footer{
+footer {
   padding: 50px 10px;
   color: white;
   background-color: black;
 }
-.footer-info{
+.footer-info {
   text-align: center;
 }
-.f-logo{
+.f-logo {
   font-size: 34px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -161,24 +201,30 @@ footer{
   font-weight: 200;
   margin-bottom: 5px;
 }
-.f-logo .social-link{
+.f-logo .social-link {
   text-decoration: underline;
 }
-
-/*******************************************************************
-                              FOOTER 
-*******************************************************************/
 
 /*******************************************************************
                               DESKTOP VERSION 
 *******************************************************************/
 
 @media screen and (min-width: 800px) {
+  p {
+    font-size: 16px;
+  }
+
   .wrapper {
     max-width: clamp(800px, 98vw, 1600px);
     margin: auto;
-    padding: 25px 0;
+    padding: auto 25px;
   }
+  .main-btn {
+    font-size: 13px;
+  }
+  /*******************************************************************
+                                NAV 
+  *******************************************************************/
 
   nav {
     padding-right: 10px !important;

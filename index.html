@@ -1,111 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="CSS/home.css" />
-  <title>Philippe Coussot</title>
-</head>
+    <title>Philippe Coussot</title>
+  </head>
 
-<body>
-  <header>
-    <nav id="nav-bar" class="wrapper">
-      <button class="burger-menu-btn">
-        <div class="burger-bar"></div>
-      </button>
-      <ul class="nav-options">
-        <li><a class="nav-link active" href="index.html">Accueil</a></li>
-        <li><a class="nav-link" href="people.html">Equipe</a></li>
-        <li><a class="nav-link" href="research.html">Recherche</a></li>
-        <li><a class="nav-link" href="news.html">Nouveaute</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-      <div class="logo">Philippe Coussot</div>
-
-      <div class="search">
-        <input class="search-input" type="search" placeholder="Mot cle" />
-        <button class="search-button">
-          <ion-icon name="search-outline"></ion-icon>
+  <body>
+    <header>
+      <nav id="nav-bar" class="wrapper">
+        <button class="burger-menu-btn">
+          <div class="burger-bar"></div>
         </button>
-      </div>
-    </nav>
-    <div id="hero-banner" class="wrapper">
-      <h3 class="hero-theme">Affaire en cours / Confort et humidité</h3>
-      <h1 class="hero-subject">De l'eau libre à l'eau liée.</h1>
-      <p class="hero-description">
-        Découvrez la recherche de Philippe Coussot sur les multiples facettes
-        de l'eau, de sa forme libre à son interaction complexe avec
-        l'environnement. Plongez dans l'univers de la science de l'eau.
-      </p>
-      <div class="hero-pictures">
-        <div class="hero-pictures-container">
-          <img class="hero-picture" src="assets/humid.jpg" alt="" />
-          <img class="hero-picture" src="assets/humid.jpg" alt="" />
-          <img class="hero-picture" src="assets/humid.jpg" alt="" />
-          <img class="hero-picture" src="assets/humid.jpg" alt="" />
-        </div>
-        <div class="hero-pictures-description">
-          L'humidité de l'air est une des principales sources d'inconfort. De
-          quoi s'agit-il ? De la vapeur d'eau présente dans l'air. Il y a en
-          effet dans l'air qui nous entoure des molécules d'eau qui s'agitent
-          au milieu des autres molécules. On peut mettre au maximum
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section id="news">
-      <h2 class="title-section">Aperçu des news</h2>
-      <div class="carrousel">
-        <article>
-          <h3 class="news-theme"></h3>
-          <h2 class="news-title"></h2>
-          <img src="assets/humid.jpg" alt="">
-        </article>
-        <article>
-          <h3 class="news-theme"></h3>
-          <h2 class="news-title"></h2>
-          <img src="assets/humid.jpg" alt="">
-        </article>
-        <article>
-          <h3 class="news-theme"></h3>
-          <h2 class="news-title"></h2>
-          <img src="assets/humid.jpg" alt="">
-        </article>
-        <article>
-          <h3 class="news-theme"></h3>
-          <h2 class="news-title"></h2>
-          <img src="assets/humid.jpg" alt="">
-        </article>
-      </div>
-    </section>
-    <section class="erc">
-      <h2 class="title-section"></h2>
-      <p>
-        L’humidité de l’air est une des principales sources d’inconfort. De quoi s’agit-il ? De la vapeur d’eau
-        présente dans l’air. Il y a en effet dans l’air qui nous entoure des molécules d’eau qui s’agitent au milieu des
-        autres molécules. On peut mettre au maximum une fraction très faible de molécules d’eau, de l’ordre de… à
-        T=20°C. Au-delà les molécules s’agrègent pour former des gouttes d’eau (du brouillard…( image ?)) qui donnent
-        une certaine opacité à l’air. En lire plus...
-      </p>
-      <button>En savoir plus</button>
-      <img src="assets/humid.jpg" alt="" width="150px" height="150px">
-    </section>
-  </main>
-  <footer class="wrapper">
-    <div class="footer-info">
-      <div class="f-logo">Philippe Coussot</div>
-      <p>Adresse mail: <a class="mail-link" href="mailto:philippe.coussot@univ-eiffel.fr">philippe.coussot@univ-eiffel.fr</a></p>
-      <p>Linkedin: <a class="social-link" href="https://www.linkedin.com/in/philippe-coussot-aa2338115/?originalSubdomain=fr" target="_blank">Philippe Coussot</a></p>
-    </div>
+        <ul class="nav-options">
+          <li><a class="nav-link active" href="index.html">Accueil</a></li>
+          <li><a class="nav-link" href="people.html">Equipe</a></li>
+          <li><a class="nav-link" href="research.html">Recherche</a></li>
+          <li><a class="nav-link" href="news.html">Nouveaute</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="logo">Philippe Coussot</div>
 
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script> -->
-  <script src="script.js"></script>
-</body>
+        <div class="search">
+          <input class="search-input" type="search" placeholder="Mot cle" />
+          <button class="search-button">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </nav>
+      <div id="hero-banner" class="wrapper">
+        <h3 class="theme padded-align">
+          Affaire en cours / Confort et humidité
+        </h3>
+        <h1 class="hero-subject padded-align">De l'eau libre à l'eau liée.</h1>
+        <p class="hero-description padded-align">
+          Découvrez la recherche de Philippe Coussot sur les multiples facettes
+          de l'eau, de sa forme libre à son interaction complexe avec
+          l'environnement. Plongez dans l'univers de la science de l'eau.
+        </p>
+        <div class="hero-pictures">
+          <div class="hero-pictures-container">
+            <img class="hero-picture" src="assets/humid.jpg" alt="" />
+            <img class="hero-picture" src="assets/humid.jpg" alt="" />
+            <img class="hero-picture" src="assets/humid.jpg" alt="" />
+            <img class="hero-picture" src="assets/humid.jpg" alt="" />
+          </div>
+          <div class="hero-pictures-description main-card">
+            <p>
+              L'humidité de l'air est une des principales sources d'inconfort.
+              De quoi s'agit-il ? De la vapeur d'eau présente dans l'air. Il y a
+              en effet dans l'air qui nous entoure des molécules d'eau qui
+              s'agitent au milieu des autres molécules. On peut mettre au
+              maximum au milieu des autres molécules. On peut mettre au maximum
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="news" class="home-section">
+        <h3 class="section-theme theme">Suivez les news</h3>
+        <h2 class="title-section">Aperçu des news</h2>
 
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="#" class="news-link">
+                <article class="news-card">
+                  <h3 class="theme news-theme">Affaire en cours</h3>
+                  <h3 class="news-title">Rôle des Matériaux Biosourcés</h3>
+                  <img
+                    class="news-img"
+                    src="assets/humid.jpg"
+                    alt="news-img"
+                    height="250"
+                  />
+                </article>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="news-link">
+                <article class="news-card">
+                  <h3 class="theme news-theme">Affaire en cours</h3>
+                  <h3 class="news-title">Rôle des Matériaux Biosourcés</h3>
+                  <img
+                    class="news-img"
+                    src="assets/humid.jpg"
+                    alt="news-img"
+                    height="250"
+                  />
+                </article>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="news-link">
+                <article class="news-card">
+                  <h3 class="theme news-theme">Affaire en cours</h3>
+                  <h3 class="news-title">Rôle des Matériaux Biosourcés</h3>
+                  <img
+                    class="news-img"
+                    src="assets/humid.jpg"
+                    alt="news-img"
+                    height="250"
+                  />
+                </article>
+              </a>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-btn-prev swiper-btn">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-btn-next swiper-btn">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+      </section>
+
+      <section id="erc" class="home-section">
+        <h3 class="section-theme theme">Lauréat ERC</h3>
+        <div class="erc-wrapper">
+          <div>
+            <h2 class="title-section">Lauréat d’une bourse ERC</h2>
+            <p>
+              L’humidité de l’air est une des principales sources d’inconfort.
+              De quoi s’agit-il ? De la vapeur d’eau présente dans l’air. Il y a
+              en effet dans l’air qui nous entoure des molécules d’eau qui
+              s’agitent au milieu des autres molécules. On peut mettre au
+              maximum une fraction très faible de molécules d’eau, de l’ordre
+              de… à T=20°C. Au-delà les molécules s’agrègent pour former des
+              gouttes d’eau (du brouillard…( image ?)) qui donnent une certaine
+              opacité à l’air. En lire plus...
+            </p>
+            <button class="main-btn">En savoir plus</button>
+          </div>
+          <img
+            src="assets/erc.svg"
+            alt="erc-logo"
+            width="150px"
+            height="150px"
+            class="erc-logo"
+          />
+        </div>
+      </section>
+
+      <section id="job" class="home-section">
+        <h3 class="section-theme theme">offres de these</h3>
+        <div class="jobs-container">
+          <div class="blue-card">
+            <h2 class="title-section">Position ouverte</h2>
+            <p>
+              Researcher, Cemagref, Grenoble (Institute of applied research in
+              environment and agriculture)
+            </p>
+          </div>
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <article class="job-card main-card">
+                  <span class="new-tag">new</span>
+                  <h3 class="job-title">PhD Physics of wood drying</h3>
+                  <p class="job-description">
+                    L’humidité de l’air est une des principales sources
+                    d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                    dans l’air. Il y a en effet dans l’air qui nous entoure des
+                    mol...
+                  </p>
+                  <div class="job-action">
+                    <button class="main-btn">En savoir plus</button>
+                    <div class="date">
+                      Date limite d’application : <br />
+                      10/02/2024
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="job-card main-card">
+                  <span class="new-tag">new</span>
+                  <h3 class="job-title">PhD Physics of wood drying</h3>
+                  <p class="job-description">
+                    L’humidité de l’air est une des principales sources
+                    d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                    dans l’air. Il y a en effet dans l’air qui nous entoure des
+                    mol...
+                  </p>
+                  <div class="job-action">
+                    <button class="main-btn">En savoir plus</button>
+                    <div class="date">
+                      Date limite d’application : <br />
+                      10/02/2024
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="job-card main-card">
+                  <span class="new-tag">new</span>
+                  <h3 class="job-title">PhD Physics of wood drying</h3>
+                  <p class="job-description">
+                    L’humidité de l’air est une des principales sources
+                    d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                    dans l’air. Il y a en effet dans l’air qui nous entoure des
+                    mol...
+                  </p>
+                  <div class="job-action">
+                    <button class="main-btn">En savoir plus</button>
+                    <div class="date">
+                      Date limite d’application : <br />
+                      10/02/2024
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-btn-prev swiper-btn">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-btn-next swiper-btn">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="logo" class="home-section">
+        <h3 class="section-theme theme">marques</h3>
+        <h2 class="title-section">Ils nous ont fait confiance</h2>
+
+        <div class="swiper-logo">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/upem.png" alt="logo" width="100" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/upem.png" alt="logo" width="100" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/upem.png" alt="logo" width="100" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/upem.png" alt="logo" width="100" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrapper">
+      <div class="footer-info">
+        <div class="f-logo">Philippe Coussot</div>
+        <p>
+          Adresse mail:
+          <a class="mail-link" href="mailto:philippe.coussot@univ-eiffel.fr"
+            >philippe.coussot@univ-eiffel.fr</a
+          >
+        </p>
+        <p>
+          Linkedin:
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/philippe-coussot-aa2338115/?originalSubdomain=fr"
+            target="_blank"
+            >Philippe Coussot</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- IonIcons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <!-- SwipperJs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- GSAP -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
 </html>
