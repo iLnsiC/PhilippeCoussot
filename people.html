@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/people.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Philippe Coussot | Equipe</title>
   </head>
 
@@ -31,8 +36,41 @@
       <div id="hero-banner"></div>
     </header>
     <main>
-      <section class="news"></section>
-      <section class="main-research"></section>
+      <section id="people">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <article class="job-card main-card">
+                <span class="new-tag">new</span>
+                <h3 class="job-title">PhD Physics of wood drying</h3>
+                <p class="job-description">
+                  L’humidité de l’air est une des principales sources
+                  d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                  dans l’air. Il y a en effet dans l’air qui nous entoure des
+                  mol...
+                </p>
+                <div class="job-action">
+                  <button class="main-btn">En savoir plus</button>
+                  <div class="date">
+                    Date limite d’application : <br />
+                    10/02/2024
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-btn-prev swiper-btn">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-btn-next swiper-btn">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="footer-info wrapper">
@@ -54,7 +92,6 @@
         </p>
       </div>
     </footer>
-    <script src="script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -65,5 +102,11 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
       defer
     ></script>
+    <!-- SwipperJs -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

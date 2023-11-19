@@ -129,6 +129,7 @@ nav {
   background-color: white;
   overflow: hidden;
   transition: max-height 0.5s linear;
+  z-index: 10;
 }
 .nav-options.open {
   max-height: 210px;

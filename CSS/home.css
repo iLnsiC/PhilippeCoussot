@@ -245,18 +245,8 @@
 
   .job-title {
     font-size: 25px;
-    text-wrap: balance;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  .job-action {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    align-items: center;
   }
   .job-action .date {
-    text-align: right;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
