@@ -143,10 +143,11 @@
 .jobs-container .blue-card {
   padding: 20px 20px 100px;
 }
+#job .swiper-slide {
+  padding: 0 30px;
+}
 .job-card {
   padding: 20px;
-  margin: auto;
-  width: 85%;
 }
 .job-title {
   font-size: 20px;
@@ -170,6 +171,12 @@
 *******************************************************************/
 .swiper-logo {
   overflow: hidden;
+}
+.swiper-logo img {
+  width: 100px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
 }
 /*******************************************************************
                               DESKTOP VERSION 
@@ -206,6 +213,7 @@
 
   .hero-pictures-description {
     width: 50%;
+    max-width: 500px;
     bottom: 80px;
     margin-left: 45%;
   }
@@ -225,6 +233,7 @@
   }
   .erc-logo {
     width: 50%;
+    max-width: 300px;
     height: auto;
     object-fit: contain;
   }
@@ -232,9 +241,6 @@
                                 JOB 
   *******************************************************************/
 
-  .job-card {
-    width: 80%;
-  }
   .job-title {
     font-size: 25px;
     text-wrap: balance;

@@ -12,11 +12,9 @@ function toggleSearchBar(state) {
 }
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   direction: "horizontal",
   loop: true,
 
-  // Navigation arrows
   navigation: {
     nextEl: ".swiper-btn-next",
     prevEl: ".swiper-btn-prev",
@@ -27,28 +25,30 @@ const swiper = new Swiper(".swiper", {
   },
 
   breakpoints: {
-    // when window width is >= 320px
     800: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
-    // when window width is >= 480px
     1200: {
       slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    // when window width is >= 640px
-    2000: {
-      slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 10,
     },
   },
 });
 
 const swiperLogo = new Swiper(".swiper-logo", {
   direction: "horizontal",
-  slidesPerView: 3,
-
+  slidesPerView: 4,
+  breakpoints: {
+    800: {
+      slidesPerView: 7,
+      spaceBetween: 10,
+    },
+    1100: {
+      slidesPerView: 9,
+      spaceBetween: 10,
+    },
+  },
   loop: true,
   autoplay: {
     delay: 1000,

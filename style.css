@@ -187,6 +187,7 @@ footer {
   padding: 50px 10px;
   color: white;
   background-color: black;
+  margin-top: 40px;
 }
 .footer-info {
   text-align: center;
@@ -215,7 +216,7 @@ footer {
   }
 
   .wrapper {
-    max-width: clamp(800px, 98vw, 1600px);
+    max-width: clamp(800px, 95vw, 1400px);
     margin: auto;
     padding: auto 25px;
   }
