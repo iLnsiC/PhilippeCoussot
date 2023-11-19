@@ -184,7 +184,7 @@
 
 @media screen and (min-width: 800px) {
   .home-section {
-    padding: 0 20px;
+    padding: 0;
     margin-top: 10px;
     position: relative;
   }
@@ -196,7 +196,9 @@
     font-size: 40px;
     margin-bottom: 30px;
   }
-
+  .padded-align {
+    padding: 0;
+  }
   /*******************************************************************
                               HERO BANNER 
   *******************************************************************/
