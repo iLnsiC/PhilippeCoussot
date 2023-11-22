@@ -1,6 +1,7 @@
 #people {
   margin-top: 20px;
   overflow-x: hidden;
+  text-align: center;
 }
 .swiper-people {
   position: relative;
@@ -8,11 +9,8 @@
 #people .swiper-btn {
   top: 150px;
 }
-.people-info-wrapper {
-  text-align: center;
-}
 .people-picture {
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   object-position: top;
   border-radius: 10px;

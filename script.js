@@ -73,7 +73,7 @@ const swiperPeople = new Swiper(".swiper-people", {
   breakpoints: {
     800: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 0,
     },
     1200: {
       slidesPerView: 5,
