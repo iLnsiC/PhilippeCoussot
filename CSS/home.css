@@ -2,55 +2,12 @@
   padding: 25px 20px;
   position: relative;
 }
-.title-section {
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-.theme {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 9px;
-}
-.section-theme {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
-}
 
-.swiper-btn {
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  font-size: 30px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  padding: 5px 0;
-  cursor: pointer;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 1px 2px 5px -1px #7c8284;
-}
-.swiper-btn-prev {
-  left: 5px;
-}
-.swiper-btn-next {
-  right: 5px;
-}
 /*******************************************************************
                               HERO BANNER 
 *******************************************************************/
 #hero-banner {
   margin-top: 20px;
-}
-.hero-subject {
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: -1.65px;
-  text-wrap: balance;
-  margin-bottom: 20px;
 }
 
 .hero-description {
@@ -188,26 +145,11 @@
     margin-top: 10px;
     position: relative;
   }
-  .theme {
-    font-size: 15px;
-    font-weight: 400;
-  }
-  .title-section {
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
-  .padded-align {
-    padding: 0;
-  }
   /*******************************************************************
                               HERO BANNER 
   *******************************************************************/
   #hero-banner {
     margin-top: 20px;
-  }
-  .hero-subject {
-    font-size: 80px;
-    font-weight: 600;
   }
   .hero-pictures-container {
     height: 500px;

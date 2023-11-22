@@ -58,25 +58,26 @@ const swiperLogo = new Swiper(".swiper-logo", {
 
 const swiperPeople = new Swiper(".swiper-people", {
   direction: "horizontal",
-  slidesPerView: 4,
-  effect: "cards",
-  cardsEffect: {
-    // ...
+  loop: true,
+  parallax: true,
+  centeredSlides: true,
+  navigation: {
+    nextEl: ".swiper-btn-next",
+    prevEl: ".swiper-btn-prev",
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+
   breakpoints: {
     800: {
-      slidesPerView: 7,
+      slidesPerView: 3,
       spaceBetween: 10,
     },
-    1100: {
-      slidesPerView: 9,
+    1200: {
+      slidesPerView: 5,
       spaceBetween: 10,
     },
-  },
-  loop: true,
-  autoplay: {
-    delay: 1000,
-    pauseOnMouseEnter: true,
-    waitForTransition: true,
   },
 });

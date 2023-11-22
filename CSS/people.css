@@ -1,0 +1,50 @@
+#people {
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+.swiper-people {
+  position: relative;
+}
+#people .swiper-btn {
+  top: 150px;
+}
+.people-info-wrapper {
+  text-align: center;
+}
+.people-picture {
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.people-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.people-date {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px auto 15px;
+}
+.people-bio {
+  text-align: justify;
+  text-wrap: balance;
+}
+
+/*******************************************************************
+                              DESKTOP VERSION 
+*******************************************************************/
+
+@media screen and (min-width: 800px) {
+  #people {
+    height: clamp(500px, 100vh, 800px);
+  }
+  .people-info {
+    min-width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    left: -200px;
+  }
+}
