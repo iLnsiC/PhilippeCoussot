@@ -48,6 +48,11 @@ button {
   font-size: 11px;
   text-transform: uppercase;
 }
+.main-btn.active {
+  color: white;
+  background-color: black;
+  font-weight: 300;
+}
 .main-card {
   border: 1px solid black;
   border-radius: 3px;

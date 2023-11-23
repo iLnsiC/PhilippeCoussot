@@ -81,3 +81,22 @@ const swiperPeople = new Swiper(".swiper-people", {
     },
   },
 });
+
+
+const swiperExperience = new Swiper(".swiper-experience", {
+  direction: "vertical",
+  loop: true,
+  parallax: true,
+  centeredSlides: true,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+
+  breakpoints: {
+    1: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+  },
+});
