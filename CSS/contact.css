@@ -2,13 +2,18 @@
     background-color: var(--main-bg-blue);
     margin-top: 10px;
 }
+.experience-options-desktop{ 
+    display: none;
+}
 .profile-picture {
     width: 100%;
-    aspect-ratio: 9/7;
-
+    aspect-ratio: 1/1.0025;
+    object-fit: cover;
+    object-position: top;
 }
 .experience-options button {
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 .swiper-experience{
     height: 300px;
@@ -25,9 +30,60 @@
 }
 .contact-picture{
     width: 100%;
-    height: 400px;
+    aspect-ratio: 9/11;
     object-fit: cover;
 }
 .contact-content article {
     margin-bottom: 50px;
+}
+
+
+/*******************************************************************
+                              DESKTOP VERSION 
+*******************************************************************/
+
+@media screen and (min-width: 800px) {
+    #experience .wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        align-items: center;
+    }
+    .experience-options-desktop{ 
+        display: block;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .profile-picture-wrapper {
+        width: 50vw;
+        min-width: 300px;
+        max-width: 450px;
+    }
+    .profile-picture {
+        width: 100%;
+        aspect-ratio: auto;
+    }
+    #experience .experience-options {
+        display: none;
+    }
+
+    #contact{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    #contact > * {
+        flex: 1;
+    }
+    .contact-content{
+        min-width: 400px;
+    }
+    .contact-picture{
+        width: auto;
+        aspect-ratio: auto;
+        object-fit: cover;
+    }
 }

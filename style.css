@@ -100,6 +100,9 @@ button {
   margin-bottom: 20px;
 }
 
+.social-link {
+  text-decoration: underline;
+}
 /*******************************************************************
                               SWIPER 
 *******************************************************************/
@@ -263,9 +266,6 @@ footer {
   font-size: 15px;
   font-weight: 200;
   margin-bottom: 5px;
-}
-.f-logo .social-link {
-  text-decoration: underline;
 }
 
 /*******************************************************************

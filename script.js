@@ -14,6 +14,9 @@ function toggleSearchBar(state) {
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
+  grabCursor: true,
+  slideToClickedSlide: true,
+  roundLengths: true,
   navigation: {
     nextEl: ".swiper-btn-next",
     prevEl: ".swiper-btn-prev",
@@ -38,6 +41,9 @@ const swiper = new Swiper(".swiper", {
 const swiperLogo = new Swiper(".swiper-logo", {
   direction: "horizontal",
   slidesPerView: 4,
+  grabCursor: true,
+  slideToClickedSlide: true,
+  roundLengths: true,
   breakpoints: {
     800: {
       slidesPerView: 7,
@@ -61,6 +67,9 @@ const swiperPeople = new Swiper(".swiper-people", {
   loop: true,
   parallax: true,
   centeredSlides: true,
+  grabCursor: true,
+  roundLengths: true,
+  slideToClickedSlide: true,
   navigation: {
     nextEl: ".swiper-btn-next",
     prevEl: ".swiper-btn-prev",
@@ -88,6 +97,10 @@ const swiperExperience = new Swiper(".swiper-experience", {
   loop: true,
   parallax: true,
   centeredSlides: true,
+  setWrapperSize: true,
+  roundLengths: true,
+  grabCursor: true,
+  slideToClickedSlide: true,
   keyboard: {
     enabled: true,
     onlyInViewport: true,
@@ -97,6 +110,12 @@ const swiperExperience = new Swiper(".swiper-experience", {
     1: {
       slidesPerView: 5,
       spaceBetween: 10,
+      height: 300,
+    },
+    800: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      height: 510,
     },
   },
 });
