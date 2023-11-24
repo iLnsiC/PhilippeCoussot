@@ -103,6 +103,10 @@ button {
 .social-link {
   text-decoration: underline;
 }
+.toggle-options button {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
 /*******************************************************************
                               SWIPER 
 *******************************************************************/

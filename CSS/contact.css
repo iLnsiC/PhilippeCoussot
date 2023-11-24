@@ -2,7 +2,7 @@
     background-color: var(--main-bg-blue);
     margin-top: 10px;
 }
-.experience-options-desktop{ 
+.experience-options{ 
     display: none;
 }
 .profile-picture {
@@ -10,10 +10,6 @@
     aspect-ratio: 1/1.0025;
     object-fit: cover;
     object-position: top;
-}
-.experience-options button {
-    margin-bottom: 10px;
-    margin-right: 10px;
 }
 .swiper-experience{
     height: 300px;
@@ -49,7 +45,7 @@
         gap: 50px;
         align-items: center;
     }
-    .experience-options-desktop{ 
+    .experience-options{ 
         display: block;
         margin-top: 50px;
         display: flex;
@@ -65,7 +61,7 @@
         width: 100%;
         aspect-ratio: auto;
     }
-    #experience .experience-options {
+    #experience .toggle-options {
         display: none;
     }
 
