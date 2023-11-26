@@ -1,140 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/news.css" />
+    <title>Philippe Coussot | Nouveautés</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="CSS/news.css" />
-  <title>Philippe Coussot | Nouveautés</title>
-</head>
-
-<body>
-  <header>
-    <nav id="nav-bar" class="wrapper">
-      <button class="burger-menu-btn">
-        <div class="burger-bar"></div>
-      </button>
-      <ul class="nav-options">
-        <li><a class="nav-link" href="index.html">Accueil</a></li>
-        <li><a class="nav-link" href="people.html">Equipe</a></li>
-        <li><a class="nav-link" href="research.html">Recherche</a></li>
-        <li><a class="nav-link active" href="news.html">Nouveaute</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-      <div class="logo">Philippe Coussot</div>
-
-      <div class="search">
-        <button class="search-button">
-          <ion-icon name="search-outline"></ion-icon>
+  <body>
+    <header>
+      <nav id="nav-bar" class="wrapper">
+        <button class="burger-menu-btn">
+          <div class="burger-bar"></div>
         </button>
-      </div>
-    </nav>
-    <div id="hero-banner"></div>
-  </header>
-  <main>
-    <section id="hot-topic">
-      <article>
-        <a href="#">
-          <div class="news-topic padded-align">
-            <h3 class="theme section-theme">affaire en cours / Confort et humidité</h3>
-            <h2 class="news-title main">Confort & humidité</h2>
-          </div>
-        </a>
-      </article>
-      <div class="padded-align">
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <a href="#" class="news-link">
-                <article class="news-card">
-                  <h3 class="theme news-theme">Affaire en cours</h3>
-                  <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
-                  <img class="news-img" src="assets/mat.png" alt="news-img" height="250" />
-                </article>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="news-link">
-                <article class="news-card">
-                  <h3 class="theme news-theme">Affaire en cours</h3>
-                  <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
-                  <img class="news-img" src="assets/header-1.png" alt="news-img" height="250" />
-                </article>
-              </a>
-            </div>
-          </div>
+        <ul class="nav-options">
+          <li><a class="nav-link" href="index.html">Accueil</a></li>
+          <li><a class="nav-link" href="people.html">Equipe</a></li>
+          <li><a class="nav-link" href="research.html">Recherche</a></li>
+          <li><a class="nav-link active" href="news.html">Nouveaute</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="logo">Philippe Coussot</div>
 
-          <!-- If we need navigation buttons -->
-          <div class="swiper-btn-prev swiper-btn">
-            <ion-icon name="chevron-back-outline"></ion-icon>
-          </div>
-          <div class="swiper-btn-next swiper-btn">
-            <ion-icon name="chevron-forward-outline"></ion-icon>
-          </div>
+        <div class="search">
+          <button class="search-button">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
         </div>
-      </div>
-
-    </section>
-    <section id="researchs" class="padded-align">
-      <h1 class="theme section-theme">Suivez les news</h1>
-      <div class="toggle-options">
-        <button class="main-btn active">Theme</button>
-        <button class="main-btn">Theme</button>
-        <button class="main-btn">Theme</button>
-        <button class="main-btn">Theme</button>
-      </div>
-      <div class="news-container">
-        <article class="news-second-card">
-          <a>
-            <img src="assets/header-1.png" alt="" width="150" height="90">
-            <div class="topic-info">
-              <h3 class="theme">Confort et Humidité</h3>
-              <div class="hr"></div>
-              <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
-              <p class="news-description">
-                L’humidité de l’air est une des principales sources d’inconfort. De quoi s’agit-il ? De la vapeur d’eau
-                présente dans l’air. Il y a en effet dans l’air qui nous entoure des molécules d’eau qui s’agitent au
-                milieu des autres molécules. On peut mettre au maximum une fraction très faible de molécules d’eau, de
-                l’ordre de… à T=20°C. Au-delà les molécules s’agrègent pour former des gouttes d’eau (du brouillard…(
-                image ?)) qui donnent une certaine opacité à l’air. En lire plus...
+      </nav>
+      <div id="hero-banner"></div>
+    </header>
+    <main>
+      <section id="hot-topic" class="wrapper">
+        <article class="hot-topic main">
+          <a href="#">
+            <div class="news-topic">
+              <h3 class="theme section-theme">
+                affaire en cours / Confort et humidité
+              </h3>
+              <h2 class="news-title">Confort & humidité</h2>
+              <p class="news-release">
+                Publie par: <span>Philippe Coussot</span>. Le:
+                <span>01-01-2022</span>
               </p>
             </div>
           </a>
         </article>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-info wrapper">
-      <div class="f-logo">Philippe Coussot</div>
-      <p>
-        Adresse mail:
-        <a class="mail-link" href="mailto:philippe.coussot@univ-eiffel.fr">philippe.coussot@univ-eiffel.fr</a>
-      </p>
-      <p>
-        Linkedin:
-        <a class="social-link" href="https://www.linkedin.com/in/philippe-coussot-aa2338115/?originalSubdomain=fr"
-          target="_blank">Philippe Coussot</a>
-      </p>
-    </div>
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
-  <!-- SwipperJs -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="JS/pagination.min.js"></script>
-  <script type="text/template" id="template-demo">
-    <ul>
-    <% for (var i = 0, len = data.length; i < len; i++) { %>
-        <li><%= data[i] %></li>
-    <% } %>
-    </ul>
-  </script>
-  <script src="script.js"></script>
-</body>
+        <article class="hot-topic second">
+          <a href="#">
+            <div class="news-topic">
+              <h3 class="theme section-theme">
+                affaire en cours / Confort et humidité
+              </h3>
+              <h2 class="news-title">Confort & humidité</h2>
+              <p class="news-release">
+                Publie par: <span>Philippe Coussot</span>. Le:
+                <span>01-01-2022</span>
+              </p>
+            </div>
+          </a>
+        </article>
+        <article class="hot-topic second">
+          <a href="#">
+            <div class="news-topic">
+              <h3 class="theme section-theme">
+                affaire en cours / Confort et humidité
+              </h3>
+              <h2 class="news-title">Confort & humidité</h2>
+              <p class="news-release">
+                Publie par: <span>Philippe Coussot</span>. Le:
+                <span>01-01-2022</span>
+              </p>
+            </div>
+          </a>
+        </article>
+        <div class="padded-align hot-topic-swiper">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="#" class="news-link">
+                  <article class="news-card">
+                    <h3 class="theme news-theme">Affaire en cours</h3>
+                    <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                    <img
+                      class="news-img"
+                      src="assets/mat.png"
+                      alt="news-img"
+                      height="250"
+                    />
+                  </article>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="news-link">
+                  <article class="news-card">
+                    <h3 class="theme news-theme">Affaire en cours</h3>
+                    <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                    <img
+                      class="news-img"
+                      src="assets/header-1.png"
+                      alt="news-img"
+                      height="250"
+                    />
+                  </article>
+                </a>
+              </div>
+            </div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-btn-prev swiper-btn">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-btn-next swiper-btn">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="researchs" class="wrapper padded-align">
+        <h1 class="theme section-theme">Suivez les news</h1>
+        <div class="toggle-options">
+          <button class="main-btn active">Theme 1</button>
+          <button class="main-btn">Theme 2</button>
+          <button class="main-btn">Theme 3</button>
+          <button class="main-btn">Theme 4</button>
+        </div>
+        <div class="news-container">
+          <article class="news-second-card">
+            <a class="news-second-container" href="#">
+              <img
+                class="topic-picture"
+                src="assets/header-1.png"
+                alt="topic-picture"
+                width="150"
+                height="90"
+              />
+              <div class="topic-info">
+                <h3 class="theme">Confort et Humidité</h3>
+                <div class="hr"></div>
+                <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                <p class="news-description">
+                  L’humidité de l’air est une des principales sources
+                  d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                  dans l’air. Il y a en effet dans l’air qui nous entoure des
+                  molécules d’eau qui s’agitent au milieu des autres molécules.
+                  On peut mettre au maximum une fraction très faible de
+                  molécules d’eau, de l’ordre de… à T=20°C. Au-delà les
+                  molécules s’agrègent pour former des gouttes d’eau (du
+                  brouillard…( image ?)) qui donnent une certaine opacité à
+                  l’air. <span class="read-more">... En lire plus</span>
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="news-second-card">
+            <a class="news-second-container" href="#">
+              <img
+                class="topic-picture"
+                src="assets/header-1.png"
+                alt="topic-picture"
+                width="150"
+                height="90"
+              />
+              <div class="topic-info">
+                <h3 class="theme">Confort et Humidité</h3>
+                <div class="hr"></div>
+                <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                <p class="news-description">
+                  L’humidité de l’air est une des principales sources
+                  d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                  dans l’air. Il y a en effet dans l’air qui nous entoure des
+                  molécules d’eau qui s’agitent au milieu des autres molécules.
+                  On peut mettre au maximum une fraction très faible de
+                  molécules d’eau, de l’ordre de… à T=20°C. Au-delà les
+                  molécules s’agrègent pour former des gouttes d’eau (du
+                  brouillard…( image ?)) qui donnent une certaine opacité à
+                  l’air. <span class="read-more">... En lire plus</span>
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="news-second-card">
+            <a class="news-second-container" href="#">
+              <img
+                class="topic-picture"
+                src="assets/header-1.png"
+                alt="topic-picture"
+                width="150"
+                height="90"
+              />
+              <div class="topic-info">
+                <h3 class="theme">Confort et Humidité</h3>
+                <div class="hr"></div>
+                <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                <p class="news-description">
+                  L’humidité de l’air est une des principales sources
+                  d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                  dans l’air. Il y a en effet dans l’air qui nous entoure des
+                  molécules d’eau qui s’agitent au milieu des autres molécules.
+                  On peut mettre au maximum une fraction très faible de
+                  molécules d’eau, de l’ordre de… à T=20°C. Au-delà les
+                  molécules s’agrègent pour former des gouttes d’eau (du
+                  brouillard…( image ?)) qui donnent une certaine opacité à
+                  l’air. <span class="read-more">... En lire plus</span>
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="news-second-card">
+            <a class="news-second-container" href="#">
+              <img
+                class="topic-picture"
+                src="assets/header-1.png"
+                alt="topic-picture"
+                width="150"
+                height="90"
+              />
+              <div class="topic-info">
+                <h3 class="theme">Confort et Humidité</h3>
+                <div class="hr"></div>
+                <h2 class="news-title">Rôle des Matériaux Biosourcés</h2>
+                <p class="news-description">
+                  L’humidité de l’air est une des principales sources
+                  d’inconfort. De quoi s’agit-il ? De la vapeur d’eau présente
+                  dans l’air. Il y a en effet dans l’air qui nous entoure des
+                  molécules d’eau qui s’agitent au milieu des autres molécules.
+                  On peut mettre au maximum une fraction très faible de
+                  molécules d’eau, de l’ordre de… à T=20°C. Au-delà les
+                  molécules s’agrègent pour former des gouttes d’eau (du
+                  brouillard…( image ?)) qui donnent une certaine opacité à
+                  l’air. <span class="read-more">... En lire plus</span>
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-info wrapper">
+        <div class="f-logo">Philippe Coussot</div>
+        <p>
+          Adresse mail:
+          <a class="mail-link" href="mailto:philippe.coussot@univ-eiffel.fr"
+            >philippe.coussot@univ-eiffel.fr</a
+          >
+        </p>
+        <p>
+          Linkedin:
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/philippe-coussot-aa2338115/?originalSubdomain=fr"
+            target="_blank"
+            >Philippe Coussot</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <!-- SwipperJs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS/pagination.min.js"></script>
+    <script type="text/template" id="template-demo">
+      <ul>
+      <% for (var i = 0, len = data.length; i < len; i++) { %>
+          <li><%= data[i] %></li>
+      <% } %>
+      </ul>
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
