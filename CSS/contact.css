@@ -1,85 +1,84 @@
-#experience{
-    background-color: var(--main-bg-blue);
-    margin-top: 10px;
+#experience {
+  background-color: var(--main-bg-blue);
+  margin-top: 10px;
 }
-.experience-options{ 
-    display: none;
+.experience-options {
+  display: none;
 }
 .profile-picture {
-    width: 100%;
-    aspect-ratio: 1/1.0025;
-    object-fit: cover;
-    object-position: top;
+  width: 100%;
+  aspect-ratio: 1/1.0025;
+  object-fit: cover;
+  object-position: 0 25%;
 }
-.swiper-experience{
-    height: 300px;
-    overflow: hidden;
+.swiper-experience {
+  height: 300px;
+  overflow: hidden;
 }
-.slider-content{
-    display: flex;
-    align-items: center;
-    transform-origin: left;
-    gap: 20px;
+.slider-content {
+  display: flex;
+  align-items: center;
+  transform-origin: left;
+  gap: 20px;
 }
-#contact{
-    margin-top: 50px;
+#contact {
+  margin-top: 50px;
 }
-.contact-picture{
-    width: 100%;
-    aspect-ratio: 9/11;
-    object-fit: cover;
+.contact-picture {
+  width: 100%;
+  aspect-ratio: 9/11;
+  object-fit: cover;
 }
 .contact-content article {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
 
 /*******************************************************************
                               DESKTOP VERSION 
 *******************************************************************/
 
 @media screen and (min-width: 800px) {
-    #experience .wrapper{
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 50px;
-        align-items: center;
-    }
-    .experience-options{ 
-        display: block;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .profile-picture-wrapper {
-        width: 50vw;
-        min-width: 300px;
-        max-width: 450px;
-    }
-    .profile-picture {
-        width: 100%;
-        aspect-ratio: auto;
-    }
-    #experience .toggle-options {
-        display: none;
-    }
+  #experience .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: center;
+  }
+  .experience-options {
+    display: block;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .profile-picture-wrapper {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 450px;
+  }
+  .profile-picture {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+  #experience .toggle-options {
+    display: none;
+  }
 
-    #contact{
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 50px;
-        justify-content: space-between;
-    }
-    #contact > * {
-        flex: 1;
-    }
-    .contact-content{
-        min-width: 400px;
-    }
-    .contact-picture{
-        width: auto;
-        aspect-ratio: auto;
-        object-fit: cover;
-    }
+  #contact {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  #contact > * {
+    flex: 1;
+  }
+  .contact-content {
+    min-width: 400px;
+  }
+  .contact-picture {
+    width: auto;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
 }

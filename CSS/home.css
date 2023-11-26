@@ -1,3 +1,6 @@
+section {
+  margin-bottom: 70px;
+}
 .home-section {
   padding: 25px 20px;
   position: relative;
@@ -88,6 +91,9 @@
 /*******************************************************************
                                 JOB 
   *******************************************************************/
+#job {
+  max-height: 510px;
+}
 .jobs-container {
   position: relative;
 }
@@ -154,19 +160,19 @@
   .hero-pictures-container {
     height: 500px;
   }
-
+  .hero-pictures {
+    max-height: 600px;
+  }
   .hero-pictures-description {
     width: 50%;
     max-width: 500px;
     bottom: 80px;
-    margin-left: 45%;
+    margin-right: 5%;
   }
   /*******************************************************************
                                 ERC 
   *******************************************************************/
-  #erc {
-    margin-bottom: 50px;
-  }
+
   .erc-wrapper {
     display: flex;
     gap: 50px;
