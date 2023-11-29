@@ -33,7 +33,7 @@ section {
 
 .hero-pictures-description {
   position: relative;
-  width: 80%;
+  width: 90%;
   padding: 20px 25px;
   bottom: 80px;
   z-index: 1;
@@ -134,6 +134,7 @@ section {
 *******************************************************************/
 .swiper-logo {
   overflow: hidden;
+  text-align: center;
 }
 .swiper-logo img {
   width: 100px;
@@ -164,9 +165,8 @@ section {
     max-height: 600px;
   }
   .hero-pictures-description {
-    width: 50%;
-    max-width: 500px;
-    bottom: 80px;
+    max-width: 700px;
+    bottom: 160px;
     margin-right: 5%;
   }
   /*******************************************************************

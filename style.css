@@ -17,7 +17,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 main {
   flex: 1;
@@ -286,7 +285,6 @@ footer {
   .wrapper {
     max-width: clamp(800px, 95vw, 1400px);
     margin: auto;
-    overflow-x: hidden;
   }
   .main-btn {
     font-size: 13px;
@@ -298,9 +296,6 @@ footer {
   .title-section {
     font-size: 40px;
     margin-bottom: 30px;
-  }
-  .padded-align {
-    padding: 0;
   }
   .main-title {
     font-size: 80px;
@@ -319,6 +314,7 @@ footer {
   }
   .logo {
     order: 1;
+    cursor: pointer;
   }
   .nav-options {
     position: relative;
@@ -351,5 +347,11 @@ footer {
   .nav-link:hover {
     color: black;
     border-bottom: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .padded-align {
+    padding: 0;
   }
 }

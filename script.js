@@ -1,5 +1,9 @@
 const burgerMenuBtn = document.querySelector(".burger-menu-btn");
 const navBarOptions = document.querySelector(".nav-options");
+const navLogo = document.querySelector(".logo");
+navLogo.addEventListener("click", () => {
+  location.replace(window.location.origin);
+});
 burgerMenuBtn.addEventListener("click", (e) => {
   e.preventDefault;
   e.target.closest(".burger-menu-btn").classList.toggle("open");
@@ -40,21 +44,16 @@ const swiper = new Swiper(".swiper", {
 
 const swiperLogo = new Swiper(".swiper-logo", {
   direction: "horizontal",
-  slidesPerView: 4,
+  slidesPerView: 3,
   grabCursor: true,
-  slideToClickedSlide: true,
   roundLengths: true,
+  loop: true,
   breakpoints: {
     800: {
-      slidesPerView: 7,
-      spaceBetween: 10,
-    },
-    1100: {
-      slidesPerView: 9,
+      slidesPerView: 4,
       spaceBetween: 10,
     },
   },
-  loop: true,
   autoplay: {
     delay: 1000,
     pauseOnMouseEnter: true,
@@ -91,7 +90,6 @@ const swiperPeople = new Swiper(".swiper-people", {
   },
 });
 
-
 const swiperExperience = new Swiper(".swiper-experience", {
   direction: "vertical",
   loop: true,
@@ -108,14 +106,12 @@ const swiperExperience = new Swiper(".swiper-experience", {
 
   breakpoints: {
     1: {
-      slidesPerView: 5,
+      slidesPerView: 3,
       spaceBetween: 10,
-      height: 300,
     },
-    800: {
+    1000: {
       slidesPerView: 5,
-      spaceBetween: 10,
-      height: 510,
+      spaceBetween: 20,
     },
   },
 });
