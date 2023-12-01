@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "yearStart": null,
+    "yearEnd": 1998,
+    "expType": 1,
+    "description": "Ph.D. Adviser Degree in Mechanical Engineering",
+    "institution": "University Pierre et Marie Curie",
+    "place": "Paris"
+  },
+  {
+    "id": 2,
+    "yearStart": null,
+    "yearEnd": 1992,
+    "expType": 1,
+    "description": "Ph.D. Fluid Mechanics, Laboratory of Rheology (supervisor: J.M. Piau)",
+    "institution": "Grenoble University",
+    "place": "Grenoble"
+  }
+]

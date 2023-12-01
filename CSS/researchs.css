@@ -30,8 +30,9 @@
   font-size: 11px;
   margin-top: 10px;
 }
-.news-title {
+.news-second-container .news-title {
   font-size: 17px;
+  margin-bottom: 0px;
 }
 .news-second-card {
   margin: 20px 0;
@@ -42,7 +43,7 @@
 }
 .topic-picture {
   width: 150px;
-  height: 90px;
+  height: 95px;
 }
 .topic-info {
   flex: 1;
@@ -52,10 +53,11 @@
   border-bottom: 1px solid black;
   margin: 5px 0;
 }
-.news-description {
-  max-height: 50px;
+.news-second-container .news-description {
+  max-height: 56px;
   overflow: hidden;
   position: relative;
+  white-space: inherit;
 }
 .read-more {
   position: absolute;
@@ -64,37 +66,6 @@
   background-color: white;
   padding: 0px 5px 2px 1px;
   color: grey;
-}
-
-/*******************************************************************
-                                NEWS SWIPER
-  *******************************************************************/
-
-.news-theme {
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-.swiper .news-title {
-  margin-bottom: 20px;
-}
-.news-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  object-position: center;
-}
-.swiper .swiper-btn {
-  top: auto;
-  bottom: 115px;
-  transform: translateY(0);
-}
-.swiper .swiper-btn-prev {
-  left: 10px;
-}
-.swiper .swiper-btn-next {
-  right: 10px;
 }
 
 /*******************************************************************
@@ -141,8 +112,8 @@
     width: 250px;
     height: 130px;
   }
-  .news-description {
-    max-height: 80px;
+  .news-second-container .news-description {
+    max-height: 90px;
   }
 }
 

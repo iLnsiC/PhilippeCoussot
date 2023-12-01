@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Education"
+  },
+  {
+    "id": 2,
+    "name": "Professional"
+  },
+  {
+    "id": 3,
+    "name": "Honors and Awards"
+  },
+  {
+    "id": 4,
+    "name": "Main teaching"
+  },
+  {
+    "id": 5,
+    "name": "Member of editorial boards"
+  }
+]

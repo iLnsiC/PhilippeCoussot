@@ -22,7 +22,9 @@ section {
 .research-hero-img p {
   font-size: 10px;
 }
-
+.hero-data {
+  border-bottom: 1px solid black;
+}
 .research-data {
   display: flex;
   font-weight: 700;
@@ -64,6 +66,13 @@ section {
     gap: 50px;
     row-gap: 20px;
     align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+
+  .hero-data {
+    border: none;
   }
   .research-hero-content {
     grid-area: desc;

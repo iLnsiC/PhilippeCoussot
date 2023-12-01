@@ -45,39 +45,6 @@ section {
 /* A FINIR */
 
 /*******************************************************************
-                                NEWS 
-  *******************************************************************/
-.news-theme {
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-.news-title {
-  margin-bottom: 20px;
-}
-.news-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  object-position: center;
-}
-.news-link {
-  display: block;
-  margin: auto;
-}
-
-#news .swiper .swiper-btn {
-  top: auto;
-  bottom: 115px;
-  transform: translateY(0);
-}
-#news .swiper .swiper-btn-prev {
-  left: 10px;
-}
-#news .swiper .swiper-btn-next {
-  right: 10px;
-}
-/*******************************************************************
                                 ERC 
   *******************************************************************/
 .erc-wrapper p {
