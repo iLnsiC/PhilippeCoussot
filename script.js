@@ -1,6 +1,7 @@
 const burgerMenuBtn = document.querySelector(".burger-menu-btn");
 const navBarOptions = document.querySelector(".nav-options");
 const navLogo = document.querySelector(".logo");
+const toggleBtn = document.querySelectorAll(".toggle-options button");
 navLogo.addEventListener("click", () => {
   location.replace(window.location.origin);
 });
@@ -114,4 +115,14 @@ const swiperExperience = new Swiper(".swiper-experience", {
       spaceBetween: 20,
     },
   },
+});
+
+function filterToggle(e) {
+  const activBtn = document.querySelector(".toggle-options .active");
+  activBtn.classList.remove("active");
+  e.target.classList.add("active");
+  console.log(e.target.dataset.theme);
+}
+toggleBtn.forEach((el) => {
+  el.addEventListener("click", filterToggle);
 });

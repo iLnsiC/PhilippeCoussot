@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="CSS/researchs.css" />
-    <title>Philippe Coussot | Nouveautés</title>
+    <title>Philippe Coussot | Recherches</title>
   </head>
 
   <body>
@@ -141,13 +141,14 @@
       <section id="researchs" class="wrapper padded-align">
         <h1 class="theme section-theme">Suivez les news</h1>
         <div class="toggle-options">
-          <button class="main-btn active">Theme 1</button>
-          <button class="main-btn">Theme 2</button>
-          <button class="main-btn">Theme 3</button>
-          <button class="main-btn">Theme 4</button>
+          <button class="main-btn active" data-theme="all">tous</button>
+          <button class="main-btn" data-theme="theme-1">Theme 1</button>
+          <button class="main-btn" data-theme="theme-2">Theme 2</button>
+          <button class="main-btn" data-theme="theme-3">Theme 3</button>
+          <button class="main-btn" data-theme="theme-4">Theme 4</button>
         </div>
         <div class="news-container">
-          <article class="news-second-card">
+          <article class="news-second-card" data-theme="theme-1">
             <a class="news-second-container" href="research.html">
               <img
                 class="topic-picture"
@@ -174,7 +175,7 @@
               </div>
             </a>
           </article>
-          <article class="news-second-card">
+          <article class="news-second-card" data-theme="theme-2">
             <a class="news-second-container" href="research.html">
               <img
                 class="topic-picture"
@@ -201,7 +202,7 @@
               </div>
             </a>
           </article>
-          <article class="news-second-card">
+          <article class="news-second-card" data-theme="theme-3">
             <a class="news-second-container" href="research.html">
               <img
                 class="topic-picture"
@@ -228,7 +229,7 @@
               </div>
             </a>
           </article>
-          <article class="news-second-card">
+          <article class="news-second-card" data-theme="theme-4">
             <a class="news-second-container" href="research.html">
               <img
                 class="topic-picture"
@@ -291,13 +292,7 @@
     <!-- SwipperJs -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="JS/pagination.min.js"></script>
-    <script type="text/template" id="template-demo">
-      <ul>
-      <% for (var i = 0, len = data.length; i < len; i++) { %>
-          <li><%= data[i] %></li>
-      <% } %>
-      </ul>
-    </script>
+
     <script src="script.js"></script>
   </body>
 </html>
