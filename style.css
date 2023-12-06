@@ -296,11 +296,11 @@ nav {
   opacity: 1;
 }
 .card {
-  transition: all linear 0.5s;
   position: relative;
   cursor: pointer;
 }
 .card::after {
+  transition: all linear 0.2s;
   content: "";
   position: absolute;
   background-color: transparent;
