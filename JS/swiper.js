@@ -43,3 +43,10 @@ const swiperLogo = new Swiper(".swiper-logo", {
     waitForTransition: true,
   },
 });
+function initSwiper() {
+  slideResizeHandler(swiper);
+  window.addEventListener("resize", () => {
+    slideResizeHandler(swiper);
+  });
+}
+initSwiper();
