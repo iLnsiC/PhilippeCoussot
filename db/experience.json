@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "yearStart": null,
+    "yearEnd": 1987,
+    "expType": 1,
+    "description": "Diplome d'ingenieur",
+    "institution": "Ecole Polytechnique",
+    "place": "Paris"
+  },
+  {
+    "id": 2,
+    "yearStart": null,
+    "yearEnd": 1989,
+    "expType": 1,
+    "description": "Diplome d'ingenieur",
+    "institution": "ENGREF-ParisTech",
+    "place": "Paris"
+  },
+  {
+    "id": 3,
+    "yearStart": null,
+    "yearEnd": 1992,
+    "expType": 1,
+    "description": "Ph.D. Fluid Mechanics, Laboratory of Rheology (supervisor: J.M. Piau)",
+    "institution": "Grenoble University",
+    "place": "Grenoble"
+  },
+  {
+    "id": 4,
+    "yearStart": null,
+    "yearEnd": 1998,
+    "expType": 1,
+    "description": "Ph.D. Adviser Degree in Mechanical Engineering",
+    "institution": "University Pierre et Marie Curie",
+    "place": "Paris"
+  },
+  {
+    "id": 5,
+    "yearStart": 1992,
+    "yearEnd": 1996,
+    "expType": 2,
+    "description": "Chercheur",
+    "institution": "Cemagref (Institut des recherches applique dans l'environnement et l'agriculture)",
+    "place": "Grenoble"
+  },
+  {
+    "id": 6,
+    "yearStart": 1996,
+    "yearEnd": 2002,
+    "expType": 2,
+    "description": "Chef de projet Imagerie Raisonnance Magnetique",
+    "institution": "Laboratoire Central des Ponts et Chaussées",
+    "place": "Paris"
+  },
+  {
+    "id": 7,
+    "yearStart": null,
+    "yearEnd": 2006,
+    "expType": 2,
+    "description": "Chercheur (visite), Department of Physics and Astronomy",
+    "institution": "University of Western Ontario",
+    "place": "Ontario"
+  },
+  {
+    "id": 8,
+    "yearStart": 2002,
+    "yearEnd": 2009,
+    "expType": 2,
+    "description": "Director of the Laboratory for Materials and Structures for Civil Engineering (CNRS)",
+    "institution": "(CNRS - French Ministry of Ecology)",
+    "place": ""
+  },
+  {
+    "id": 9,
+    "yearStart": 2011,
+    "yearEnd": 2018,
+    "expType": 2,
+    "description": "Directeur d'equipe sur la recherche sur la physique des Medias poreaux",
+    "institution": "Ecole des Ponts - CNRS - IFSTTAR",
+    "place": "France"
+  },
+  {
+    "id": 10,
+    "yearStart": 2012,
+    "yearEnd": 2015,
+    "expType": 2,
+    "description": "Directeur de laboratoire Multiscale Modelling and Experiments for Sustainable Construction (MMCD)",
+    "institution": "Laboratory of Excellence (“Investments for the Future”)",
+    "place": "Paris"
+  },
+  {
+    "id": 11,
+    "yearStart": 2010,
+    "yearEnd": 2020,
+    "expType": 2,
+    "description": "Director of the Education and Research",
+    "institution": "Chair Saint-Gobain-Ecole des Ponts ParisTech",
+    "place": "Paris"
+  },
+  {
+    "id": 12,
+    "yearStart": 2011,
+    "yearEnd": null,
+    "expType": 2,
+    "description": "Professeur",
+    "institution": "Ecole des Ponts ParisTech",
+    "place": "Paris"
+  },
+  {
+    "id": 13,
+    "yearStart": 2019,
+    "yearEnd": null,
+    "expType": 2,
+    "description": "Chercheur Senior Rheophysics and Porous Media Team",
+    "institution": "Laboratoire Navier",
+    "place": "Paris"
+  }
+]
